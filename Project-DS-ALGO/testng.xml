@@ -9,7 +9,7 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="runner.TestngTestRunner" />
-			<!-- class name="runner.TestRunner" /> -->
+			<class name="runner.TestRunner" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

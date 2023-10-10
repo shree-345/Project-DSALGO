@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 //import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="./resources/dsfeatures",
+@CucumberOptions(features=".\\resources\\dsfeatures",
                   glue={"dsStepDefinitions","hooks"},
                   publish=true,
                   monochrome=true,
