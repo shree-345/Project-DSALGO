@@ -3,7 +3,7 @@
 <suite name="DS_Algo_Suite">
 	<listeners>
 		<listener
-			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+			class-name="utilities.ExtentReporterNG" />
 	</listeners>
 
 	<test thread-count="5" name="Test">
